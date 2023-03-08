@@ -112,8 +112,8 @@ submitBtn.addEventListener("click", (e) => {
 				popup.classList.add("popup__active");
 			} else {
 				console.log("Заполните поля!");
-				submitBtn.classList.add('button')
+				submitBtn.classList.add("button");
 			}
 		})
-		.catch((err) => {});
+		.catch((err) => console.log(err));
 });
